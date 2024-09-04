@@ -1,0 +1,120 @@
+body { 
+ 
+background:
+radial-gradient(circle at 50% 0,#6C333F,rgba(108,51,63,.8) 
+10%,rgba(100,57,65,.6) 
+20%,rgba(93,59,65,.4) 
+30%,rgba(88,64,67,.2) 
+40%,hsla(0,0%,50%,0) 50%);
+justify-items: center;
+	align-items: center;
+
+}
+
+
+._colorwheel{outline:none;position:relative;-webkit-tap-highlight-color:transparent}[dir] 
+
+._colorwheel{cursor:pointer;border-radius:100%; opacity: 0.3;
+background:
+radial-gradient(circle at 50% 0,#6C333F,rgba(108,51,63,.8) 
+10%,rgba(100,57,65,.6) 
+20%,rgba(93,59,65,.4) 
+30%,rgba(88,64,67,.2) 
+40%,hsla(0,0%,50%,0) 50%)
+}
+
+._colorwheel:before{content:"";width:1px;height:0}[dir] 
+._colorwheel:before{padding-top:100%}[dir=ltr] 
+._colorwheel:before{margin-left:-1px;float:left}[dir=rtl]
+._colorwheel:before{margin-top:-31px;float:left}[dir=rtl]
+ 
+._colorwheel:before{margin-right:-1px;float:right}
+._colorwheel:after{content:"";display:table}[dir] 
+._colorwheel:after{clear:both}[dir] 
+._colorwheel:active{cursor:none}
+
+
+
+._colorwheel3{outline:none;position:relative;-webkit-tap-highlight-color:transparent}[dir] 
+
+._colorwheel3{cursor:none;border-radius:100%;
+background:
+/* 12 o'clock  */
+radial-gradient(circle at 50% 0,#120E06,rgba(18,8,0,.8) 
+10%,rgba(36,6,0,.6) 
+20%,rgba(54,4,0,.4) 
+30%,rgba(72,2,0,.0) 
+40%,hsla(0,0%,50%,0) 50%),
+
+
+
+
+/*  one o'clock thirty minutes  */
+radial-gradient(circle at 85.35533905932738% 14.644660940672622%,#5B461F,rgba(91,1,0,.0) 
+10%,rgba(109,9,0,.6) 
+20%,rgba(127,39,9,.4) 
+30%,rgba(145,69,9,.2)
+40%,hsla(45,0%,50%,0) 50%),
+
+
+
+
+/* three o'clock */
+radial-gradient(circle at 100% 50%,#A37D37,rgba(163,99,9,.0) 
+10%,rgba(181,129,41,.6) 
+20%,rgba(188,136,54,.4) 
+30%,rgba(196,150,80,.2) 
+40%,hsla(90,0%,50%,0) 50%),
+
+
+
+/* four o'clock thirty minutes */
+radial-gradient(circle at 85.35533905932738% 85.35533905932738%,#CCA951,rgba(204,4,0,.0) 
+10%,rgba(212,18,8,.6) 
+20%,rgba(220,32,2,.4) 
+30%,rgba(224,36,6,.2)
+40%,hsla(135,0%,50%,0) 50%),
+
+
+/* six o'clock */
+radial-gradient(circle at 50.00000000000001% 100%,#E4CE76,rgba(228,40,0,.0) 
+10%,rgba(233,51,1,.6) 
+20%,rgba(238,56,6,.4) 
+30%,rgba(233,51,1,.2) 
+40%,hsla(180,0%,50%,0) 50%),
+
+
+
+/* seven o'clock thirty minutes */
+radial-gradient(circle at 14.64466094067263% 85.35533905932738%,#CCA951,rgba(204,4,0,.0) 
+10%,rgba(224,36,6,.6) 
+20%,rgba(220,32,2,.4) 
+30%,rgba(212,18,8,.2) 
+40%,hsla(225,0%,50%,0) 50%),
+
+
+/* nine o'clock */
+radial-gradient(circle at 0 50.00000000000001%,#E4CE76,rgba(228,40,0,.0) 
+10%,rgba(233,51,1,.6) 
+20%,rgba(233,51,1,.4) 
+30%,rgba(238,56,6,.2) 
+40%,hsla(270,0%,50%,0) 50%),
+
+
+
+/* ten o'clock thirty minutes */
+radial-gradient(circle at 14.644660940672615% 14.64466094067263%,#ff00bf,rgba(242,13,185,.0) 
+10%,rgba(180,0,253,.6) 
+20%,rgba(170,0,253,.4) 
+30%,rgba(160,0,253,.2) 
+40%,hsla(315,0%,50%,0) 50%)
+
+}
+
+._colorwheel3:before{content:"";width:1px;height:0}[dir] 
+._colorwheel3:before{padding-top:100%}[dir=ltr] 
+._colorwheel3:before{margin-left:-1px;float:left}[dir=rtl] 
+._colorwheel3:before{margin-right:-1px;float:right}
+._colorwheel3:after{content:"";display:table}[dir] 
+._colorwheel3:after{clear:both}[dir] 
+._colorwheel3:active{cursor:none}
