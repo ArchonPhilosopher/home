@@ -1,0 +1,461 @@
+
+html           {    
+height:100%;             
+}  
+
+body           {             
+margin: 0;
+padding: 0 0 1px;    
+min-height: 100%;
+_height:100%;
+position: relative;
+font: normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #222222;
+background: #eeaa00 none repeat scroll top left;
+padding: 0 40px 40px 40px;
+min-width: 960px;
+}    
+
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+                       
+h1,h2,h3,h4           {             margin:0;position:relative    }                          
+h1 a:hover           {             text-decoration:none    }                          
+h3 a:hover           {             text-decoration:none    }    
+h2 {font-size: 22px; text-align: right; padding-right: 15px;}
+a:link {text-decoration:none;color: #cc6611;}
+a:visited {text-decoration:none;color: #888888;}
+a:hover {text-decoration:underline;color: #ff9900;}
+
+.body-fauxcolumn-outer .fauxcolumn-inner {
+background: transparent url("body_gradient_tile_light.png") repeat scroll top left;
+_background-image: none;
+}
+
+
+
+
+
+
+.main-outer {
+border: 1px solid red;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+}
+
+
+
+.region-inner {
+border: 3px solid green;
+min-height: 0;
+margin: 0 auto
+}
+
+.columns  {
+border: 1px solid black;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+}
+
+
+.columns-inner {
+border: 1px solid red;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+}
+
+.column-center-outer {
+border: 1px solid #40E0D0;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+position: relative; 
+float: none;
+overflow: visible;
+background-color: white;
+width: auto;
+}
+
+                    
+.columns-inner           {             
+height:1%;
+min-height:0;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+    }   
+
+
+.column-center-inner {
+border: 1px solid green;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+}
+
+
+.main  {
+border: 1px solid #87CEFA;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+}
+
+
+
+.widget {
+border: 1px solid #FFC0CB;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+ line-height: 1.4; 
+
+}
+
+
+.date-outer {
+border: 1px solid yellow;
+}
+
+
+
+
+
+
+
+.blog-posts  {
+border: 1px solid #F0F8FF;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+}
+
+
+.date-posts {
+border: 1px solid black;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+}
+
+
+.post-outer{ 
+border: 1px solid red;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+}
+
+
+.post {
+border: 1px solid #708090;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+}
+
+
+
+.post-body           {             
+width: 90%;
+overflow:visible;
+margin-left: 15px;
+margin-right: 15px;
+padding-left: 15px;
+padding-right: 10px;
+padding-top: 5px;
+background-color: #FDF5E6;
+border: 4px solid #FFEFD5;
+text-align: justify;
+    }                   
+
+
+.content-inner           {             
+  background-color: #ffffff;
+padding: 100px 100px;
+} 
+
+.section           {             margin:0 15px;
+padding-left: 1px;
+padding-right: 1px;
+padding-top: 1px;
+background-color: white;
+    }
+
+
+
+
+      
+.content           {             position:relative;word-wrap:break-word    }      
+
+
+
+.content-outer           {             min-height:0;margin:0 auto    }   
+               
+                      
+.column-left-inner, .column-right-inner           {             padding: 0 15px    }                          
+
+                  
+
+
+
+                     
+.header-inner .section           {             margin:0    }                          
+.header-inner .widget           {             margin-left:30px;margin-right:30px    }                          
+.header-inner .Header           {             margin:0    }                          
+.header-inner .Header #header-inner           {             overflow:hidden    }                         
+.header-inner .Header .titlewrapper           {             padding:22px 30px 0    }                          
+.header-inner .Header .descriptionwrapper           {             padding:0 30px;margin-bottom:25px    }                          
+.Header h1           {             
+margin-bottom:10px;    
+font: normal normal 60px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+color: #ffffff;
+text-shadow: 1px 2px 3px rgba(0, 0, 0, .2);
+}                          
+.Header .description           {             margin:.5em 0 10px;padding:0 2px    }                          
+.header-outer {
+background: #cc6611 url("historyoftarotfiles/gradients_light.png") repeat-x scroll 0 -400px;
+_background-image: none;
+}
+.header-inner .Header .titlewrapper {
+padding: 22px 30px;
+}
+          
+
+
+
+
+
+
+
+
+
+
+
+/*
+.column-center-outer           {             
+position: relative; 
+float: right;
+display:inline;
+overflow: visible;
+margin-left: 15px;
+margin-right: 15px;
+background-color: white;
+    }     
+*/
+
+/*
+.column-left-outer,           {             
+position: relative; 
+float: none;
+display:inline;
+overflow: hidden;
+margin-left: 95px;
+margin-right: 95px;
+background-color: red;
+    }     
+*/
+
+
+/*
+.column-right-outer           {             
+position: relative; 
+float: none;
+display:inline;
+overflow: hidden;
+margin-left: 15px;
+margin-right: 15px;
+background-color: red;
+    }     
+
+*/
+
+           /*            
+.column-center-outer,.column-left-outer,.column-right-outer           {             
+position:relative; 
+float:left;
+_display:inline;_overflow:hidden;
+margin-left: 15px;
+margin-right: 15px;
+background-color: blue;
+    }              
+*/
+
+
+            
+
+
+
+
+.fauxcolumns           {             position:relative;_height:1%;
+margin-left: 15px;
+margin-right: 15px;
+background-color: violet;    }                          
+.fauxcolumn-outer           {             position:absolute;top:0;bottom:0;height:expression(this.parentNode.offsetHeight + 'px');overflow:hidden    }                          
+.fauxcolumn-outer .fauxborder-left,.fauxcolumn-outer .fauxborder-right,.fauxcolumn-inner           {             height:100%    }                          
+.fauxcolumn-left-outer           {             left:0    }                          
+
+
+.fauxcolumn-right-outer           {             right:0    }                          
+
+
+
+
+
+
+
+
+
+.cap-top,.cap-bottom           {             position:relative;height:0;background-repeat:repeat-x;}                          
+.cap-top .cap-left,.cap-top .cap-right,.cap-bottom .cap-left,.cap-bottom .cap-right           {  height:100%;background-repeat:no-repeat;}                          
+.cap-top,.cap-top .cap-left           {             background-position:top left    }                          
+.cap-bottom,.cap-bottom .cap-left           {             background-position:bottom left    }                          
+.cap-top .cap-left,.cap-bottom .cap-left           {             float:left    }                          
+.cap-top .cap-right           {             background-position:top right;float:right    }                          
+.cap-bottom .cap-right           {             background-position:bottom right;float:right    }                         
+
+
+
+
+
+
+
+
+
+
+ .fauxborder-left           {             background-position:top left;background-repeat:repeat-y;position:relative;_height:1%;
+ }                          
+.fauxborder-right           {             
+background-position:top right;background-repeat:repeat-y;position:absolute;right:0;height:100%;_height:expression(this.parentNode.offsetHeight + 'px');
+  }                          
+
+
+
+
+
+
+
+
+
+
+.body-fauxcolumns,.content-fauxcolumns           {             position:absolute;top:0;left:0;z-index:-1;height:100%;_height:expression(this.parentNode.offsetHeight + 'px');width:100%;overflow:hidden    }                          
+
+
+.body-fauxcolumns .fauxcolumn-outer           {             
+width: 100%;    
+
+}                          
+
+
+.content-fauxcolumns .fauxcolumn-outer           {             position:relative;overflow:visible;height:100%;margin:0 auto    }                          
+.content-fauxcolumns .fauxcolumn-left           {             
+width:100%;
+    }                          
+
+
+
+
+
+
+
+
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 1160px;
+max-width: 1160px;
+_width: 1160px;
+background-color: #FFF8DC;
+padding: 15px;
+}
+
+
+
+/*
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 310px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("310px") + 'px');
+}
+
+
+
+*/
+
+.fauxcolumn-left-outer {
+width: 0px;
+
+}
+
+.fauxcolumn-right-outer {
+width: 310px;
+
+}
+
+.column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+
+}
+
+.column-right-outer {
+width: 310px;
+margin-right: -310px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 400px;
+width: 100%;
+}
+
+
+
+.body-fauxcolumn-outer .cap-top .cap-left {
+width: 100%;
+background: transparent url("gradients_light.png") repeat-x scroll top left;
+_background-image: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
