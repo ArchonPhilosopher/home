@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+
+.main-navigation {
+	margin-top: 24px;
+	margin-top: 1.714285714rem;
+	text-align: center;
+}
+.main-navigation li {
+	margin-top: 24px;
+	margin-top: 1.714285714rem;
+	font-size: 12px;
+	font-size: 0.857142857rem;
+	line-height: 1.42857143;
+}
+
+h3  {
+
+text-align: left;
+line-height: 1.714285714;
+font-size: 21px;
+	font-size: 1.5rem;
+color: #454;
+box-shadow: 0 2px 6px rgba(33, 117, 155, 0.3);
+padding-left: 1em;
+}
+
+
+.entry-content,
+.entry-summary,
+.entry-content h1,
+.entry-content h2,
+.entry-content h3 {
+	margin: 24px 0;
+	margin: 1.714285714rem 0;
+	line-height: 1.714285714;
+}
+.entry-content h1 {
+	font-size: 21px;
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+.entry-content h2,
+.entry-content h3 {
+	font-size: 16px;
+	font-size: 1.142857143rem;
+	line-height: 1.846153846;
+}
+
+.entry-content p,
+.entry-summary p {
+	color: #9f9f9f;
+}
+
+.site-content article {
+	border-bottom: 4px double #ededed;
+	margin-bottom: 72px;
+	margin-bottom: 5.142857143rem;
+	padding-bottom: 24px;
+	padding-bottom: 1.714285714rem;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	hyphens: auto;
+}
+
+
+
+/* Minimum width of 960 pixels. */
+@media screen and (min-width: 960px) {
+	
+	body .site {
+		padding: 0 40px;
+		padding: 0 2.857142857rem;
+		margin-top: 48px;
+		margin-top: 3.428571429rem;
+		margin-bottom: 48px;
+		margin-bottom: 3.428571429rem;
+		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	}
+}
+
+html {
+	font-size: 87.5%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	font-size: 14px;
+	font-size: 1rem;
+	font-family: Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	color: #444;
+	line-height: 0.8;
+        background-color: #e6e6e6;
+}
+
+p    {text-align: justify;}
+	
+	.site-content {
+		float: left;
+		width: 65.104166667%;
+		margin: 24px 0 0;
+		margin: 1.714285714rem 0 0;
+	}
+	body.full-width .site-content {
+		width: 100%;
+	}
+	.site-header {
+	padding: 24px 0;
+	padding: 1.714285714rem 0;
+	}
+	.site-header h1,
+	.site-header h2 {
+		text-align: left;
+		line-height: 1.285714286;
+		margin-bottom: 14px;
+		margin-bottom: 1rem;
+	}
+	.site-header h1 {
+		font-size: 26px;
+		font-size: 1.857142857rem;
+		line-height: 1.846153846;
+	}
+
+	.site {
+		margin: 0 auto;
+		max-width: 960px;
+		max-width: 68.571428571rem;
+		overflow: hidden;
+		padding: 0 24px;
+		padding: 0 1.714285714rem;
+		background-color: #fff;		
+
+		}
+
+
+.tabs{margin:0px 0;margin:0.4rem 0;padding:2px; font-size:8px;font-size:0.8rem;hyphens:auto}
+.tabs div{display:inline;float:left;text-align:center;min-width:16%;background:rgba(33,117,155,0.2);max-width:10%;hyphens:inherit}
+.tabs a{display:block;color:rgba(33,155,71,0.6);padding:5px;padding:.5rem;hyphens:inherit}
+.tabs div.selected a,#tabs div a:hover{background:rgba(33,117,155,0.6);color:#fff;font-weight:700;hyphens:inherit}
+.tabs.bottom{border-bottom:5px solid #21759b; border-top:5px solid #21759b; width: 94%;}
+
+
+a,a:visited{color:rgba(155,132,33,0.2);text-decoration:none;cursor:pointer}
+a:hover,a:active{color:#d45500;cursor:pointer}
+
+figurel {
+  float: left;
+pointer-events: auto;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+figurer {
+  float: right;
+pointer-events: auto;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.tight  {
+text-align: left;
+line-height: 1.714285714;
+font-size: 1.17rem;
+color: #454;
+text-shadow: 0 2px 6px rgba(33, 117, 155, 0.3);
+padding-left: 1em;
+}
